@@ -7,7 +7,7 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/holographic-blockchain/entity-framework</PackageProjectUrl>
     <PackageTags>entity framework entity-framework entity-framework-core ef</PackageTags>
-    <Description>Provides extensions for working with entity framework.</Description>
+    <Description>Provides extensions for working with entity framework. Adds the .IncludeEntities extension method to dynamically include other entities when using a repository pattern.</Description>
     <RepositoryUrl>https://github.com/holographic-blockchain/entity-framework</RepositoryUrl>
     <Version>1.0.0</Version>
   </PropertyGroup>
