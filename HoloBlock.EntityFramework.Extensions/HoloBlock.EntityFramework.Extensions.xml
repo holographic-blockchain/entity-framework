@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HoloBlock.EntityFramework.Extensions</name>
+    </assembly>
+    <members>
+        <member name="M:HoloBlock.EntityFramework.Extensions.LinqExtensions.IncludeEntities``1(System.Linq.IQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])">
+            <summary>
+            Will call .Include over the full param array.
+            </summary>
+            <typeparam name="TSource">The source type.</typeparam>
+            <param name="source"></param>
+            <param name="includedEntities">All related entities to be included in the query</param>
+            <returns></returns>
+        </member>
+        <member name="M:HoloBlock.EntityFramework.Extensions.LinqExtensions.ParseLambda(System.Linq.Expressions.LambdaExpression)">
+            <summary>
+            Parses the lambda expression depending on its type to build its path.
+            </summary>
+            <param name="expression"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HoloBlock.EntityFramework.Extensions.LinqExtensions.ParseMember(System.Linq.Expressions.MemberExpression)">
+            <summary>
+            Parses member expressions to build the path.
+            </summary>
+            <param name="expression"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HoloBlock.EntityFramework.Extensions.LinqExtensions.ParseMethodCall(System.Linq.Expressions.MethodCallExpression)">
+            <summary>
+            Parses the method call expression to build the path.
+            </summary>
+            <param name="expression"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
