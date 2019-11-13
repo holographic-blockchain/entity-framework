@@ -75,3 +75,14 @@ The application logic can then call this method, loading only the navigation pro
     o => o.OrderItems.Select(oi => oi.InventoryItem.Warehouses),
     o => o.Customer);
 </pre>
+
+## Releases
+
+<ul>
+  <li>1.0.1
+    <ul>
+      <li>Include documentation for Intellisense</li>
+    </ul>
+  </li>
+  <li>1.0.0</li>
+</ul>
